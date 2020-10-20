@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Scheduler Testing Suite" duration-ms="217007" started-at="2020-10-19T09:26:01Z" finished-at="2020-10-19T09:29:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="217007" started-at="2020-10-19T09:26:01Z" finished-at="2020-10-19T09:29:38Z">
+      <class name="Base.Baseclass">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Base.Baseclass@dc24521]" name="LaunchBrowser" is-config="true" duration-ms="9647" started-at="2020-10-19T09:25:51Z" finished-at="2020-10-19T09:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- Base.Baseclass -->
+      <class name="TestPackage.LoginPage">
+        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:TestPackage.LoginPage@10bdf5e5]" name="ApplicationLaunch" duration-ms="16072" started-at="2020-10-19T09:26:01Z" finished-at="2020-10-19T09:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationLaunch -->
+        <test-method status="PASS" signature="LoginTest_FacilityAdmin()[pri:0, instance:TestPackage.LoginPage@10bdf5e5]" name="LoginTest_FacilityAdmin" duration-ms="200767" started-at="2020-10-19T09:26:17Z" finished-at="2020-10-19T09:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest_FacilityAdmin -->
+      </class> <!-- TestPackage.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Scheduler Testing Suite -->
+</testng-results>

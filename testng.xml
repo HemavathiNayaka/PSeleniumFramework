@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Scheduler Testing Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="Base.Baseclass"/>  
+    <class name="TestPackage.LoginPage"/>
+ <!--    <class name="TestPackage.UnschORLtChecklist"/> -->
+  <!--   <class name="TestPackage.WaitLtChecklist"/>  -->
+    
+      <!--   <class name="TestPackage.EditPatient"/> 
+        <class name="TestPackage.AddOrder"/> 
+        
+      <class name="TestPackage.PatientRegistration"/> -->
+    <!--    <class name="TestPackage.UploadMasterData"/>--> 
+       
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
